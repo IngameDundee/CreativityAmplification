@@ -14,7 +14,7 @@ The research in these toolkits also resulted in the academic papers “Euphonia:
 
 ### Researcher Information
 
-This toolkit was created by [Lynda Clark](https://discovery.dundee.ac.uk/en/persons/lynda-clark), InGAME’s Research and Development Fellow for Narrative and Play. [Lynda Clark](https://wouldyouliketochangethedifficultysetting.wordpress.com/about/) is a writer and game-maker based at the University of Dundee. Her debut novel, Beyond Kidding (2019) was recently optioned by Film4. Her short stories have been shortlisted for the BBC Short Story Award, Commonwealth Prize, Cambridge Prize, Galley Beggar Press Short Story Prize, and ACLS Tom Gallon Award, and are now available in the collection Dreaming in Quantum (2021). Her interactive piece The Memory Archivist was shortlisted for the New Media Writing Prize and won the British Library Labs Artistic Award 2019.
+This toolkit was created by [Lynda Clark](https://discovery.dundee.ac.uk/en/persons/lynda-clark), InGAME’s Research and Development Fellow for Narrative and Play. [Lynda Clark](https://wouldyouliketochangethedifficultysetting.wordpress.com/about/) is a writer and game-maker based at the University of Dundee. Her debut novel, *Beyond Kidding* (2019) was recently optioned by Film4. Her short stories have been shortlisted for the BBC Short Story Award, Commonwealth Prize, Cambridge Prize, Galley Beggar Press Short Story Prize, and ACLS Tom Gallon Award, and are now available in the collection *Dreaming in Quantum* (2021). Her interactive piece "The Memory Archivist" was shortlisted for the New Media Writing Prize and won the British Library Labs Artistic Award 2019.
 
 ### Acknowledgements
 

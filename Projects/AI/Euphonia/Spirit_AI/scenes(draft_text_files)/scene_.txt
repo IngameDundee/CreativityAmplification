@@ -1,0 +1,1966 @@
+[Scene]
+Id = ""
+Name = ""
+SceneGuid = "c2fbcb5b-7230-4140-a4aa-304c7908f4d9"
+
+[Scene.Roles]
+Text = """
+"""
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 1
+Dialogue = "Generic 'Where' question:"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 1
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 2
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 3
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 3
+IsValid = true
+Indent = 0
+Dialogue = "Where are we?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "ba9c42ba-bc90-41d7-88cf-4df5d63dfd79"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhereQuestion|yes"]
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Keyword"
+Flags = []
+Parameters = ["we"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 3
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 4
+IsValid = true
+Indent = 0
+Dialogue = "Is there something wrong with your eyes? We are in an {attic}."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "00c66c50-d083-4adf-8bf2-652f4a09fa14"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Is there something wrong with your eyes? We are in an {attic}."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Beyond this attic, I'm not sure there's anything further I can tell you."
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 4
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 5
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 6
+Dialogue = " Basic Fallbacks."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 6
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 7
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 8
+Dialogue = " Matches if the natural language classifier could not classify the player's input."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 8
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 9
+
+[[Scene.Node]]
+Type = "SupportingLine"
+OriginalLineNumber = 9
+IsValid = true
+Indent = 0
+Dialogue = "Unclear"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Trigger"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[[Scene.Node]]
+Type = "Whitespace"
+OriginalLineNumber = 9
+Dialogue = "  "
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 9
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 10
+IsValid = true
+Indent = 0
+Dialogue = "[[offtopic_response]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "bde1b708-eb46-4c89-a2e8-a74528379151"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[offtopic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Perhaps if you rephrased that?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I fear I am not up to date on all the latest modern slang."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I'm afraid I'm not quite sure what you mean."
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 10
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 11
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 12
+Dialogue = " Matches if no other lines in the scenario matched the player's input."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 12
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 13
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 13
+IsValid = true
+Indent = 0
+Dialogue = "(Anything else...)"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "ac03702c-792a-4c95-a9b0-bbf6e1452e5b"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "AnythingElse"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 13
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 14
+IsValid = true
+Indent = 0
+Dialogue = "[[offtopic_response]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "2599e332-165b-4aa2-bfe4-7f147da93556"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[offtopic_response]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 14
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 15
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 16
+Dialogue = " Classifier Fallbacks."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 16
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 17
+Dialogue = " These are fallback answers for each classifier, in case we don't have a more specific response to make when one of these is detected."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 17
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 18
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 19
+Dialogue = "Affirmative"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 19
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 20
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 20
+IsValid = true
+Indent = 0
+Dialogue = "Yes."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "2d421713-f591-445c-8e48-651f786d7202"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["Affirmative|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 20
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 21
+IsValid = true
+Indent = 0
+Dialogue = "Oh! I knew it!"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "e5906d65-2c48-4965-9681-46eb592c6c92"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Oh! I knew it!"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I had suspected as much."
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 21
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 22
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 23
+Dialogue = "Apology"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 23
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 24
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 24
+IsValid = true
+Indent = 0
+Dialogue = "I'm sorry."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "6aa126c4-a79a-438a-8e71-09edaf39ac64"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["Apology|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 24
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 25
+IsValid = true
+Indent = 0
+Dialogue = "[[apology_response]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "8a777086-7590-45fd-a31b-dfc0f82cd038"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[apology_response]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 25
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 26
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 27
+Dialogue = "Assertion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 27
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 28
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 28
+IsValid = true
+Indent = 0
+Dialogue = "This is fun."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "e13764f7-952e-4558-a95c-3ab5fa5dd6ea"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["Assertion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 28
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 29
+IsValid = true
+Indent = 0
+Dialogue = "It seems {the_lasting} will allow anyone among their ranks these days."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "18415589-5bf6-4cff-9e64-b29105765c7c"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "It seems {the_lasting} will allow anyone among their ranks these days."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Small things please small minds."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Codswallop. "
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 29
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 30
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 31
+Dialogue = "CountQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 31
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 32
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 32
+IsValid = true
+Indent = 0
+Dialogue = "How many were there?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "4c0b062d-647e-4b40-85e8-66d48fea9a17"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["CountQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 32
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 33
+IsValid = true
+Indent = 0
+Dialogue = "I couldn't give you a number."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "cb57e370-6d14-46ae-9848-e20a814ad233"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I couldn't give you a number."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I don't have a precise answer on that."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I'm not sure I could quantify that."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 33
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 34
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 35
+Dialogue = "EventQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 35
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 36
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 36
+IsValid = true
+Indent = 0
+Dialogue = "What happened at the bar?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "d6bce775-cd88-454b-9ec1-fd0611faa1cf"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["EventQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 36
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 37
+IsValid = true
+Indent = 0
+Dialogue = "Do I look capable of daily sojurns along the promenade?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "48f79702-8eb3-400b-a40d-3991b3b65212"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Do I look capable of daily sojurns along the promenade?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I have not left this attic for many years, so have no way of answering that."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EffectSetTrait"
+Flags = []
+Parameters = ["angry", "player", "+=", "15"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 37
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 38
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 39
+Dialogue = "HowQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 39
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 40
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 40
+IsValid = true
+Indent = 0
+Dialogue = "How did you get here?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "1658e5c6-4e2e-4ad0-9d89-0970e8c73c56"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["HowQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 40
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 41
+IsValid = true
+Indent = 0
+Dialogue = "I wish I knew."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "f83ff501-4c0b-4bc4-a88d-654cbdf4b37e"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I wish I knew."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I assume I was transported via crate. I do not remember."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 41
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 42
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 43
+Dialogue = "Negative"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 43
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 44
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 44
+IsValid = true
+Indent = 0
+Dialogue = "No."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "fb326753-3244-43ee-87cb-13265cba014c"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["Negative|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 44
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 45
+IsValid = true
+Indent = 0
+Dialogue = "No? Very well."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "912a7680-ca64-449e-a9d1-a24a333434bb"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "No? Very well."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I see."
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 45
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 46
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 47
+Dialogue = "OpenQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 47
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 48
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 48
+IsValid = true
+Indent = 0
+Dialogue = "Tell me about Bob"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "ccb3ee10-a816-4b3a-91dd-014060fd4ea2"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["OpenQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 48
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 49
+IsValid = true
+Indent = 0
+Dialogue = "You will have to elaborate if you expect an answer."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "1b88f480-1005-4aec-9819-b90f889c0d6e"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "You will have to elaborate if you expect an answer."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[evade]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Speak plainly, or not at all."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Use your words, child. "
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 49
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 50
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 51
+Dialogue = "QualityQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 51
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 52
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 52
+IsValid = true
+Indent = 0
+Dialogue = "How are you doing?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "0a89a836-5f99-4004-ba4b-a976593bbf33"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["QualityQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 52
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 53
+IsValid = true
+Indent = 0
+Dialogue = "Beyond being stuck in an attic with you?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "088bed2b-54ab-48a3-bd62-77bfb355a566"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Beyond being stuck in an attic with you?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[feeling_angry]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[feeling_trusting]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[feeling_suspicious]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 53
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 54
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 55
+Dialogue = "Thanks"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 55
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 56
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 56
+IsValid = true
+Indent = 0
+Dialogue = "Thank you."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "fa123ec3-8945-43cf-bdef-c062c85b16aa"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["Thanks|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 56
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 57
+IsValid = true
+Indent = 0
+Dialogue = "[[thanks_response]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "bac59b3e-29c1-4935-9f23-c84c2cfe99c3"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[thanks_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "You're very welcome."
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 57
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 58
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 59
+Dialogue = "WhatQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 59
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 60
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 60
+IsValid = true
+Indent = 0
+Dialogue = "What do you want?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "260865d5-473d-4fca-9dc9-6b2ffe5463ee"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhatQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 60
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 61
+IsValid = true
+Indent = 0
+Dialogue = "[[generic_response]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "9abf4e57-0847-46be-9e94-f1d8a9f7392b"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 61
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 62
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 63
+Dialogue = "WhenQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 63
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 64
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 64
+IsValid = true
+Indent = 0
+Dialogue = "When did it happen?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "0dfd88da-ec2a-4c7a-b420-fd9301b14204"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhenQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 64
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 65
+IsValid = true
+Indent = 0
+Dialogue = "Time becomes meaningless when you're locked away in an {attic}."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "12fdabf2-20c3-4edc-b2ce-e05d77ca5121"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Time becomes meaningless when you're locked away in an {attic}."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "It's likely that I experience time somewhat differently to you."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[ask_year]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 65
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 66
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 67
+Dialogue = "WhereQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 67
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 68
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 68
+IsValid = true
+Indent = 0
+Dialogue = "Where was this?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "8aae6b7f-d023-459f-8731-91ff5d9616dc"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhereQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 68
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 69
+IsValid = true
+Indent = 0
+Dialogue = "I refer you once more to the limitations of being attic-bound."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "184718dc-901a-42db-aa3e-725255a59b88"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "I refer you once more to the limitations of being attic-bound."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "This attic has been my whole world for many years now."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 69
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 70
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 71
+Dialogue = "WhoQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 71
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 72
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 72
+IsValid = true
+Indent = 0
+Dialogue = "Who was involved?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "ba1bbf05-4d42-44f0-b4b6-60b7b80ae188"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhoQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 72
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 73
+IsValid = true
+Indent = 0
+Dialogue = "People. You all look the same to me."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "21e19aea-fabd-47cc-a7f3-3a7ef6dadf40"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "People. You all look the same to me."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Humans. All fleshy and temporary."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 73
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 74
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 75
+Dialogue = "WhyQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 75
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 76
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 76
+IsValid = true
+Indent = 0
+Dialogue = "Why did this happen?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "a27432ad-c92e-4038-8912-b5fbbcc21f54"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["WhyQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 76
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 77
+IsValid = true
+Indent = 0
+Dialogue = "Why not?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "b3c9e3c2-f733-4c51-8634-439b37aa03df"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Why not?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Why does anything happen?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EndThought"
+Flags = []
+Parameters = []
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 77
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 78
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 79
+Dialogue = "YNQuestion"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 79
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 80
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 80
+IsValid = true
+Indent = 0
+Dialogue = "Will you come to dinner?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "9e54dd9b-5c6e-4792-8515-487a4f6fcaf2"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Classifier"
+Flags = []
+Parameters = ["YNQuestion|yes"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 80
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 81
+IsValid = true
+Indent = 0
+Dialogue = "Give me a little time to consider."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "efab41cd-3955-45d5-85a0-7963a318d0a6"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Give me a little time to consider."
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[generic_response]]"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "[[denial]]"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 81
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 82
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 83
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 84
+Dialogue = " Entity Fallbacks"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 84
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 85
+Dialogue = " These fallbacks are set up to respond to \"topic\" entities created in the knowledge model. This is a good approach if you want to define concepts with multiple matching keywords that you can reuse in multiple places."
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 85
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 86
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 87
+Dialogue = "Greeting"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 87
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 88
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 88
+IsValid = true
+Indent = 0
+Dialogue = "Hello."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "bd2dde5f-d3e6-409c-b52b-990636ccc534"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Entity"
+Flags = ["Required"]
+Parameters = ["greeting"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 88
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 89
+IsValid = true
+Indent = 0
+Dialogue = "A little late for greetings, surely?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "0d4c5068-21a4-4e22-b609-18627486b409"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "A little late for greetings, surely?"
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 89
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 90
+
+[[Scene.Node]]
+Type = "Comment"
+OriginalLineNumber = 91
+Dialogue = "Farewell"
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 91
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 92
+
+[[Scene.Node]]
+Type = "ConvMoveLine"
+OriginalLineNumber = 92
+IsValid = true
+Indent = 0
+Dialogue = "Goodbye."
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Player"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.ConvMove]
+Label = ""
+ConvMoveGuid = "b1a56055-e461-4eaa-bff2-53ed802e6824"
+Debug = false
+
+[[Scene.Node.ConvMove.Tags]]
+TagType = "Entity"
+Flags = ["Required"]
+Parameters = ["farewell"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 92
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 93
+IsValid = true
+Indent = 0
+Dialogue = "You think you can leave here so easily?"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "c2d276ce-12b3-4aa5-98c4-984ada324193"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "You think you can leave here so easily?"
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Good luck getting out."
+
+[[Scene.Node.Fragment.Tags]]
+TagType = "EffectStartScene"
+Flags = []
+Parameters = ["Trapped"]
+
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 93
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 94
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 95
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 96
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 97
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 98
+

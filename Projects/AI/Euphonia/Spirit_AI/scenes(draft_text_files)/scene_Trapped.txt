@@ -1,0 +1,63 @@
+[Scene]
+Id = "Trapped"
+Name = "Trapped"
+SceneGuid = "af1075e4-cee5-4c1b-9c3b-6f9191b794ad"
+
+[Scene.Roles]
+Text = """
+"""
+
+[[Scene.Node]]
+Type = "Stanza"
+OriginalLineNumber = 1
+
+[[Scene.Node]]
+Type = "SupportingLine"
+OriginalLineNumber = 1
+IsValid = true
+Indent = 0
+Dialogue = "Opening Line"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Trigger"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[[Scene.Node]]
+Type = "Whitespace"
+OriginalLineNumber = 1
+Dialogue = " "
+
+[[Scene.Node]]
+Type = "Newline"
+OriginalLineNumber = 1
+
+[[Scene.Node]]
+Type = "FragmentLine"
+OriginalLineNumber = 2
+IsValid = true
+Indent = 0
+Dialogue = "Do you like the dark? You will get used to it in time. [[ending_message]]"
+
+[Scene.Node.SpeakerWithOptions]
+Speaker = "Euphonia"
+SpeakerTraits = []
+To = ""
+ToTraits = []
+
+[Scene.Node.Fragment]
+FirstVariantFirst = false
+FragmentGuid = "06a42978-7831-43e6-b49f-a4a2fd84579c"
+Synonyms = []
+Label = ""
+OnceOnly = false
+PlayerInput = false
+TopLevel = true
+
+[[Scene.Node.Fragment.Variations]]
+Rarity = "Normal"
+Flags = ""
+Text = "Do you like the dark? You will get used to it in time. [[ending_message]]"
+
+

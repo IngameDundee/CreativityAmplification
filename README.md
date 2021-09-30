@@ -10,7 +10,7 @@ This work arises out of [InGAME’s](https://www.innovationforgames.com/) ongoin
 
 ### Background Research
 
-The research in these toolkits also resulted in the academic papers [“Euphonia: Reflecting on the Design of an AI-Powered Narrative Game”](https://doi.org/10.1145/3383668.3419913) (Clark et al 2020), “Towards Creativity Amplification” (Clark 2021), [“Mechanical Oracles: Writing for Talking Machines” (Clark 2021)](https://www.youtube.com/watch?v=mkstioADojU). Please see the Bibliography for full reference information.
+The research in these toolkits also resulted in the academic papers [“Euphonia: Reflecting on the Design of an AI-Powered Narrative Game”](https://doi.org/10.1145/3383668.3419913) (Clark et al 2020), “Towards Creativity Amplification” (Clark 2021), [“Mechanical Oracles: Writing for Talking Machines” (Clark 2021)](https://www.youtube.com/watch?v=mkstioADojU). Please see the [Bibliography](https://github.com/IngameDundee/CreativityAmplification/wiki/Bibliography-and-Resources) for full reference information.
 
 ### Researcher Information
 

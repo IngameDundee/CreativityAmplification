@@ -6,7 +6,7 @@ You can find all relevant documentation on the wiki. PDF versions of all wiki in
 
 ## Background
 
-This work arises out of [InGAME’s](https://www.innovationforgames.com/) ongoing ‘Narrative and Play’ research theme. The underlying principle of this theme is the concept of ‘Creativity Amplification’, which builds on Vernor Vinge’s (1993) definition of ‘Intelligence Amplification’. This is the idea that rather than solely striving to create machines which are intelligent, we may also use technology to amplify our own intelligence. In applying this idea to writers and creativity, this research strand considers not how to make technologies creative in and of themselves, but instead how to extend and enhance individuals’ creativity through the use of appropriate processes and technologies.
+This work arises out of [InGAME’s](https://www.innovationforgames.com/) ongoing ‘Narrative and Play’ research theme. The underlying principle of this research is the concept of ‘Creativity Amplification’, which builds on Vernor Vinge’s (1993) definition of ‘Intelligence Amplification’. This is the idea that rather than solely striving to create machines which are intelligent, we may also use technology to amplify our own intelligence. In applying this idea to writers and creativity, this research strand considers not how to make technologies creative in and of themselves, but instead how to extend and enhance individuals’ creativity through the use of appropriate processes and technologies.
 
 ### Background Research
 

@@ -2,7 +2,7 @@
 
 *A collection of tools, processes, experiments and case studies to aid writers wanting to work with technology.*
 
-You can find all relevant documentation on the wiki. PDF versions of all wiki information are available in this repository along with downloadable versions of all game projects. The wiki contains links to playable versions of game projects where possible. 
+You can find all relevant documentation on the [wiki](https://github.com/IngameDundee/CreativityAmplification/wiki). PDF versions of all wiki information are available in this repository along with downloadable versions of all game projects. The wiki contains links to playable versions of game projects where possible. 
 
 ## Background
 

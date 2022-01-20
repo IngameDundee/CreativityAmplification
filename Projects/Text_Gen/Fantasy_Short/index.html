@@ -168,7 +168,7 @@ They knew then and there that
 &lt;!-- This is another method of applying specific information to randomised information to maintain narrative coherence (see the &quot;Relative Jobs&quot; and &quot;Thing Setter&quot; passages for more ways to do this). Here each datamap holds information which is automatically applied to one specific job. This allows for more granular detail relating to each option, but unlike the method used in &quot;Relative Jobs&quot;, every job must be specifically referenced to avoid potential errors. It also requires a little more forethought as to where and how the text might be used. --&gt;
 &lt;!-- For an alternative use of datamaps, see the passage &quot;Bad Thing Setter&quot; --&gt;}</tw-passagedata><tw-passagedata pid="20" name="Fine Synonyms" tags="" position="641,614" size="100,100">(either: &quot;content&quot;, &quot;happy&quot;, &quot;getting along just fine&quot;, &quot;doing great&quot;, &quot;pleased with her lot&quot;,)</tw-passagedata><tw-passagedata pid="21" name="End" tags="" position="1104,1005" size="100,100">{(if: $stayed)[(unless: $familybusiness)[$firstname becomes a $relativejob after all. Sometimes she misses her life as a $job in (print: $placename_array&#39;s 1st) (print: $placename_array&#39;s 2nd), but that&#39;s just how things are now.]]
 }{(if: $familybusiness)[$firstname spends every day $jobtasks, day in, day out, (display: &quot;Forever Synonyms&quot;).]
-}{(if: (history:) contains &quot;Bad Thing&quot;)[Perhaps things would be different if not for that $badthing. Although she knows she can&#39;t really blame the (print: $badthingdm&#39;s &quot;what&quot;) on everything that has happened since.]
+}{(if: (history:) contains &quot;Bad Thing&quot;)[Perhaps things would be different if not for that $badthing. Although she knows she can&#39;t really blame the (if: (history:) contains &quot;Stay&quot;)+(if: $badthingdm&#39;s &quot;what&quot; is &quot;return home&quot;)[feelings of guilt for failing to] (print: $badthingdm&#39;s &quot;what&quot;) on everything that has happened since.]
 }{(if: (history:) contains &quot;Stay&quot;)[(if: $badthing is &quot;natural disaster&quot;)[At least she has four walls and a roof - that cannot be said for all her neighbours.]
 (else:)[At least she&#39;s able to send money every now and then to help $relative.]]
 }{(if: (history:) contains &quot;Funeral&quot;)[Every year, $things arrive on the anniversary of $relative2&#39;s death, which helps a little with the loss.]
@@ -196,7 +196,7 @@ Such is the life of an NPC in a medieval fantasy RPG.
 		&quot;name&quot;, &quot;messenger&quot;,
 		&quot;description&quot;, &quot;arrives with the terrible news of&quot;,
 		&quot;result&quot;, &quot;her beloved $relative2&#39;s&quot;,
-		&quot;what&quot;, &quot;death&quot;))]
+		&quot;what&quot;, &quot; death&quot;))]
 (else:)[
 (set: $badthingdm to
 	(datamap:
@@ -267,7 +267,7 @@ Restart
 [[[Credits|Credits]]]]</tw-passagedata><tw-passagedata pid="35" name="Fairly Synonyms" tags="" position="241,338" size="100,100">(either: &quot;pretty much&quot;, &quot;fairly&quot;, &quot;somewhat&quot;, &quot;mostly&quot;){
 
 &lt;!-- Some words might work better than others depending on the context. You may have to decide whether you want perfect sentences every time, or the opportunity for surprising combinations - it&#39;s unlikely you&#39;ll be able to have both without a lot of iterating and refining. --&gt;}</tw-passagedata><tw-passagedata pid="36" name="Activity" tags="" position="93,345" size="100,100">(either: &quot;in the garden picking herbs for dinner&quot;, &quot;darning socks in case of a cold snap&quot;, &quot;sweeping the hearth for the night&#39;s fire&quot;, &quot;mending her shopping basket that splits every time she overloads it at the market&quot;, &quot;washing her hair at the sink with a jug of soapy water&quot;){
-&lt;!-- The either command can carry full sentences as well as individual words, just make sure you maintain a consistent tense and sentence structure if you intend to reuse them in multiple places. --&gt;}</tw-passagedata><tw-passagedata pid="37" name="Credits" tags="no-footer" position="1254,619" size="100,100">This guide would not have been possible without repeatedly checking things I already knew but could not fully remember at:
+&lt;!-- The either command can carry full sentences as well as individual words, just make sure you maintain a consistent tense and sentence structure if you intend to reuse them in multiple places. --&gt;}</tw-passagedata><tw-passagedata pid="37" name="Credits" tags="no-footer" position="1253,619" size="100,100">This guide would not have been possible without repeatedly checking things I already knew but could not fully remember at:
 
 (link: &quot;The Twine Harlowe Manual&quot;)[(open-url: &#39;https://twine2.neocities.org/&#39;)]
 
